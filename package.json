@@ -1,0 +1,27 @@
+{
+	"author"	: "Serhey Shmyg",
+	"name"		: "Markup-project",
+	"version"	: "1.1.0",
+	"homepage"	: "https://github.com/serheyShmyg/markup-project",
+	"repository": {
+		"type"	: "git",
+		"url"	: "https://github.com/serheyShmyg/markup-project.git"
+	},
+	"scripts": {
+		"start"			: "grunt",
+		"postinstall"	: "npm start"
+	},
+	"dependencies" : {
+		"grunt"						: "latest",
+		"grunt-cli"					: "latest",
+		"grunt-contrib-sass"		: "latest",
+		"grunt-contrib-less"		: "latest",
+		"grunt-contrib-cssmin"		: "latest",
+		"grunt-contrib-jade"		: "latest",
+		"grunt-contrib-clean"		: "latest",
+		"grunt-contrib-connect"		: "latest",
+		"grunt-contrib-watch"		: "latest",
+		"grunt-contrib-copy"		: "latest",
+		"grunt-contrib-imagemin"	: "latest"
+	}
+}

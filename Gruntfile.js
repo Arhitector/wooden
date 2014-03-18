@@ -67,17 +67,17 @@ module.exports = function(grunt) {
 		jade : {
 			compile: {
 				options:{
-					pretty	: true,
-					client	: false,
+					pretty: true,
+					client: false,
 					data: grunt.file.readJSON(pathJade)
 				},
 				files: [ {
-					src		: '**/*.jade', //['**/*.jade' ,'!**/_*.jade'],
-					dest	: '<%= loc.markup %>',
-					cwd		: '<%= loc.jade %>/temp',
-					expand	: true,
-					ext		: '.html'
-				}]
+				  src: "**/*.jade",
+				  dest: "<%= loc.markup %>",
+				  cwd: "<%= loc.jade %>/temp",
+				  expand: true,
+				  ext: ".html"
+				} ]
 			}
 		},
 		clean : {

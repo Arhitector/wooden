@@ -22,6 +22,7 @@
 		"grunt-contrib-connect"		: "latest",
 		"grunt-contrib-watch"		: "latest",
 		"grunt-contrib-copy"		: "latest",
-		"grunt-contrib-imagemin"	: "latest"
+		"grunt-contrib-imagemin"	: "latest",
+		"grunt-grunt-spritesmith"	: "latest"
 	}
 }

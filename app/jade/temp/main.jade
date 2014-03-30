@@ -1,7 +1,46 @@
 extends ../exten/maintemp.jade
 
 block header
+	a(href="#").logo
+	nav.main-menu
+		a(href="#").main-menu__link Home
+		a(href="#").main-menu__link About
+		a(href="#").main-menu__link Portfolio
+		a(href="#").main-menu__link Contact
 
 block content
-
+	.social
+		a(href="#").social__link.social__link_tw
+		a(href="#").social__link.social__link_rss
+		a(href="#").social__link.social__link_fb
+	section.top-block
+		.side-preview
+			.side-preview__title ICON PACK
+			.side-preview__text Nunc iaculis malesuada commodo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum viverra suscipit odio sed rhoncus.
+			.side-preview__link VISIT ONE
+		.banner
+			img(src="#{img_path}/banner.png").banner__img
+	.article-preview
+		.article-preview__side.article-preview__side_exclamation
+			.article-preview__side__title Lorem Ipsum
+			.article-preview__side__text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis, dolor at venenatis dapibus, odio orci egestas lectus, in molestie eros sem sed est. Nulla nec interdum nibh.
+			a(href="#").article-preview__side__link More info...
+		.article-preview__side.article-preview__side_done
+			.article-preview__side__title Dolor sit amet
+			.article-preview__side__text In sollicitudin, turpis in bibendum imperdiet, libero sapien malesuada felis, vel rhoncus ligula arcu convallis nisl. Fusce pharetra pellentesque leo quis eleifend.
+			a(href="#").article-preview__side__link More info...
+	article.article 
+		.article__title Space for more of your content
+		.article__text.
+			Nulla hendrerit dictum augue, in egestas nisi tristique scelerisque. Morbi porta elementum arcu nec adipiscing. Curabitur mattis lorem sed arcu lobortis ornare. Aliquam scelerisque tempus purus vitae malesuada. Vivamus eleifend egestas euismod. Aliquam erat volutpat. Vivamus pellentesque fringilla nisl et tempor. Pellentesque et justo vitae arcu tempus dignissim. Pellentesque lacinia quam ut velit malesuada consequat laoreet justo tincidunt. Vestibulum lacus nibh, iaculis ut accumsan et, bibendum nec sapien. Praesent eu venenatis urna. Phasellus non nunc vitae lacus pulvinar molestie. Morbi eget augue dui, vitae scelerisque lacus. Mauris scelerisque molestie ligula in laoreet. Vestibulum tristique fermentum sollicitudin. 
+		.list
+			a(href="#").list__link
+				img(src="#{img_path}/img1.jpg").list__link__img
+			a(href="#").list__link
+				img(src="#{img_path}/img2.jpg").list__link__img
+			a(href="#").list__link
+				img(src="#{img_path}/img3.jpg").list__link__img
+		.button_box
+			a(href="#").button GO GET IT
 block footer
+	.footer__copyright Some copyright for you business. Design by iMatt.si
